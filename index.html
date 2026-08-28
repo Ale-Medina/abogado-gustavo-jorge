@@ -79,8 +79,9 @@ nav.scrolled{background:rgba(9,9,16,.95);backdrop-filter:blur(16px);border-botto
 .hero-eyebrow{justify-content:center;margin-bottom:28px}
 .hero-eyebrow::before{display:none}
 .hero-eyebrow span{font-size:.7rem;font-weight:600;letter-spacing:.38em;text-transform:uppercase;color:var(--or)}
-.hero h1{font-size:clamp(3rem,8vw,6.5rem);color:var(--w);font-weight:600;letter-spacing:.02em;line-height:.95;margin-bottom:20px}
+.hero h1{font-size:clamp(3rem,8vw,6.5rem);color:var(--w);font-weight:600;letter-spacing:.02em;line-height:.95;margin-bottom:10px}
 .hero h1 em{font-style:italic;color:var(--or);font-size:1.12em;display:block;letter-spacing:.04em;text-shadow:0 0 42px rgba(197,169,79,.35)}
+.hero-role{font-size:.95rem;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:var(--tx2);margin-bottom:20px}
 .hero-rule{width:1px;height:60px;background:linear-gradient(to bottom,transparent,var(--or),transparent);margin:24px auto}
 .hero-sub{font-size:1.05rem;color:var(--tx2);max-width:52ch;margin:0 auto 36px;line-height:1.75;font-weight:300}
 .hero-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
@@ -253,6 +254,7 @@ footer{background:var(--surf);border-top:1px solid var(--borde);padding:56px 0 2
 .hero-content>*{opacity:0;transform:translateY(12px)}
 body.loaded .hero-eyebrow{animation:up .8s ease forwards}
 body.loaded .hero h1{animation:up .8s .12s ease forwards}
+body.loaded .hero-role{animation:up .8s .17s ease forwards}
 body.loaded .hero-rule{animation:up .8s .22s ease forwards}
 body.loaded .hero-sub{animation:up .8s .32s ease forwards}
 body.loaded .hero-btns{animation:up .8s .44s ease forwards}
@@ -278,7 +280,7 @@ body.loaded .hero-stats{animation:up .8s .58s ease forwards}
       </svg>
       <div class="logo-text">
         <b>Gustavo Jorge</b>
-        <span>Abogado Penalista</span>
+        <span>Abogado</span>
       </div>
     </div>
     <div class="nav-links" id="navLinks">
@@ -306,9 +308,10 @@ body.loaded .hero-stats{animation:up .8s .58s ease forwards}
   <div class="hero-glow" aria-hidden="true"></div>
   <div class="hero-content">
     <div class="hero-eyebrow">
-      <span>Abogado · Penal, Civil y Laboral · Santiago del Estero</span>
+      <span>Asuntos: Penales · Civiles · Comerciales, Laborales y de Familia · Sgo del Estero / Salta</span>
     </div>
     <h1>Dr. César Gustavo<br><em>Jorge</em></h1>
+    <div class="hero-role">Penalista</div>
     <div class="hero-rule"></div>
     <p class="hero-sub">Más de 20 años defendiendo sus derechos con soluciones efectivas y personalizadas. Cada caso es único, cada defensa es mi prioridad.</p>
     <div class="hero-btns">
@@ -554,7 +557,7 @@ body.loaded .hero-stats{animation:up .8s .58s ease forwards}
       <div class="ft-brand">
         <div class="ft-logo">
           <svg width="36" height="36" viewBox="0 0 44 44" fill="none" aria-hidden="true"><circle cx="22" cy="22" r="21" fill="#2B39CE"/><path d="M12 17a9 9 0 100 10M12 22h6" stroke="#fff" stroke-width="2" stroke-linecap="round" fill="none"/><path d="M26 14v12a4 4 0 01-4 4" stroke="#fff" stroke-width="2" stroke-linecap="round" fill="none"/><circle cx="26" cy="13" r="1" fill="#fff"/></svg>
-          <div style="margin-left:10px"><b style="font-family:'Cormorant Garant',serif;font-size:1rem;font-weight:700;color:#fff;display:block">Dr. Gustavo Jorge</b><span style="font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--tx3)">Abogado Penalista</span></div>
+          <div style="margin-left:10px"><b style="font-family:'Cormorant Garant',serif;font-size:1rem;font-weight:700;color:#fff;display:block">Dr. Gustavo Jorge</b><span style="font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--tx3)">Abogado</span></div>
         </div>
         <div class="rule"></div>
         <p>Más de 20 años defendiendo los derechos de sus clientes en Santiago del Estero con dedicación, profesionalismo y resultados.</p>
